@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.post('/test', function(req, res){
 	
-	mkdirp("C:\\tttttttttttt"+"/source/",function(err){
+	mkdirp("./tttttttttttt"+"/source/",function(err){
 		 if (err) console.log(err);
 		res.json({});
 	});
